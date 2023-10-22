@@ -1,6 +1,7 @@
 <script>
   import Card from './Card.svelte';
   import Amongus from './Amongus.svelte';
+  import BaldursGate from './BaldursGate.svelte';
   import { rand } from '../lib/utils.js';
   
   export let minAmongusCount = 5;
@@ -19,6 +20,7 @@
       <Card />
     {/each}
   </section>
+  <BaldursGate/>
 </main>
 
 <style>

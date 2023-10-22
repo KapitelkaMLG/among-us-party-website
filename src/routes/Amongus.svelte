@@ -31,7 +31,6 @@
     background-position: center;
     height: 5rem;
     width: 5rem;
-    margin-bottom: 1rem;
   }
 </style>
 
